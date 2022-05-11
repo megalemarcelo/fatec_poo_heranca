@@ -3,7 +3,11 @@
     e poderiam ter características de interesse já definidas na classe mamífero.
     Responda: De qual classe Ornitorrinco deveria herdar?
 
-R.: Ornitorrinco deve herdar de Ovíparos.
+R.: 
+É possível que Ornitorrinco herde de Ovíparos.
 Na resolucao do Ex5, os atributos escolhidos foram referentes ao ninho e aos ovos, atributos que os Ornitorrincos possuem.
+
 Dentro da classe específica Ornitorrinco, devem ficar esses atributos específicos e excepcionais dos ornitorrincos.
-Já na classe abstrata Ovíparos, ficam os atributos comuns a todos os Ovíparos (o Ornitorrinco inclusive).
+
+Já na classe abstrata Ovíparos, ficam os atributos comuns a todos os Ovíparos.
+Outra solução possível seria que a classe Ornitorrinco herdasse de mamíferos e em seus atributos específicos conter as informações referentes ao ovo e ao ninho.
