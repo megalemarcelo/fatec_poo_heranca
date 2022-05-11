@@ -1,0 +1,22 @@
+DEADLY DIAMOND OF DEATH
+O DDD é uma ambiguidade que surge quando duas classes B e C herdam de A, e a classe D herda de B e C.
+Se há um método em A que B e C tenham substituído, e D não o substitui,
+então qual versão do método herda D: B ou C?
+Antes do Java 8 a herança múltipla não era suportada, portanto não estava sujeito ao ao DDD.
+
+Em C++, por exemplo, esse problema foi resolvido com a criação de uma herança virtual.
+Sem a herança virtual, o programa entende que há duas instâncias da classe A em vez de uma só.
+
+Sem herança virtual
+A   A  
+|   |
+B   C  
+ \ /  
+  D 
+
+Com herança virtual
+  A  
+ / \  
+B   C  
+ \ /  
+  D 
